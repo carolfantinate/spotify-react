@@ -1,0 +1,207 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 7px 0;
+}
+
+.sidebar_navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.li-icons {
+    margin-right: 5px;
+}
+
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation {
+    margin-bottom: 10px;
+}
+
+.sidebar_navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.biblioteca {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.biblioteca_content {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.biblioteca_button {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.biblioteca_button .book {
+    font-size: 20px;
+    margin-left: 20px;
+    width: 30px;
+}
+
+.biblioteca_button .add {
+    margin-left: 83px;
+}
+
+.section-playlist,
+.section-podcast {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 6px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist_content,
+.section-podcast_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist_content .text,
+.section-podcast_content .text {
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+.section-playlist_content .title,
+.section-podcast_content .title {
+    font-weight: 700;
+}
+
+.section-playlist_content .subtitle,
+.section-podcast_content .subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.section-playlist_content .section-playlist_button,
+.section-podcast_button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 8px;
+    margin-top: 12px;
+    border: 0;
+    width: 113px;
+}
+
+.section-playlist_button,
+.section-podcast_button {
+    width: 140px;
+}
+
+.sidebar .cookies {
+    margin: 10px 20px;
+}
+
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.languages .languages_button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+
+.languages_button .globe {
+    width: 35px;
+}
+
+/*hovers*/
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+
+.section-playlist_button:hover,
+.section-podcast_button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages_button:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
